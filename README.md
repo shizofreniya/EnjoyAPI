@@ -1,8 +1,5 @@
 # EnjoyAPI
-
 Библиотека для EnjoyMickey API
-
-
 
 ## Установка
 
@@ -13,32 +10,19 @@
 Gradle:
 
 ```gradle
-
 dependencies {
-  
 	implementation 'com.google.code.gson:gson:2.8.6'
-
 }
-
-
 ```
-
-
 
 Maven:
 
 ```xml
-
 <dependency>
-  
 	<groupId>com.google.code.gson</groupId>
-  
 	<artifactId>gson</artifactId>
-  
 	<version>2.8.6</version>
-
 </dependency>
-
 ```
 
 ## Пример работы
