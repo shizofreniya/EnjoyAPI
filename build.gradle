@@ -4,7 +4,7 @@ version = "1.1"
 
 task fatJar(type: Jar) {
     manifest {
-        attributes 'Implementation-Title': 'Java библиотека для EnjoyAPI',
+        attributes 'Implementation-Title': 'Р‘РёР±Р»РёРѕС‚РµРєР° РґР»СЏ EnjoyAPI',
             'Implementation-Version': version,
             'Main-Class': 'net.shizofreniya.EnjoyAPI'
     }
