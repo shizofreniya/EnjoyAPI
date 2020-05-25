@@ -34,7 +34,7 @@ import net.shizofreniya.EnjoyAPI.EnjoyAPIResponse;
 
 public class Main {
 	public static void main(String[] argv) throws IOException {
-		EnjoyAPIResponse res = EnjoyAPI.check("370506027767955466", "êëþ÷");
+		EnjoyAPIResponse res = EnjoyAPI.check("370506027767955466", "ключ");
 		
 		if(res.getCode() == 404) {
 			System.out.println(res.getMessage());
