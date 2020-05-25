@@ -3,27 +3,7 @@
 
 ## Установка
 
-1. Скачайте готовый .jar из последнего релиза или соберите код самостоятельно.
-2. Подключите библиотеку к вашему проекту
-3. Подключите библиотеку GSON (см. ниже)
-
-Gradle:
-
-```gradle
-dependencies {
-	implementation 'com.google.code.gson:gson:2.8.6'
-}
-```
-
-Maven:
-
-```xml
-<dependency>
-	<groupId>com.google.code.gson</groupId>
-	<artifactId>gson</artifactId>
-	<version>2.8.6</version>
-</dependency>
-```
+Скачайте готовый .jar из последнего релиза или соберите код самостоятельно. Затем подключите библиотеку к вашему проекту
 
 ## Пример использования
 ```java
