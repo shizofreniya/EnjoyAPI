@@ -1,11 +1,11 @@
 # EnjoyAPI
-Библиотека для EnjoyMickey API
+Р‘РёР±Р»РёРѕС‚РµРєР° РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ EnjoyMickey API
 
-## Установка
+## РЈСЃС‚Р°РЅРѕРІРєР°
 
-1. Скачайте .jar из релизов или соберите код из этого репозитория.
-2. Подключите библиотеку к вашему проекту
-3. Подключите библиотеку GSON
+1. РЎРєР°С‡Р°Р№С‚Рµ РіРѕС‚РѕРІС‹Р№ .jar РёР· РїРѕСЃР»РµРґРЅРµРіРѕ СЂРµР»РёР·Р° РёР»Рё СЃРѕР±РµСЂРёС‚Рµ РєРѕРґ СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕ.
+2. РџРѕРґРєР»СЋС‡РёС‚Рµ Р±РёР±Р»РёРѕС‚РµРєСѓ Рє РІР°С€РµРјСѓ РїСЂРѕРµРєС‚Сѓ
+3. РџРѕРґРєР»СЋС‡РёС‚Рµ Р±РёР±Р»РёРѕС‚РµРєСѓ GSON (СЃРј. РЅРёР¶Рµ)
 
 Gradle:
 
@@ -25,7 +25,7 @@ Maven:
 </dependency>
 ```
 
-## Пример работы
+## РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ
 ```java
 import java.io.IOException;
 
@@ -34,7 +34,7 @@ import net.shizofreniya.EnjoyAPI.EnjoyAPIResponse;
 
 public class Main {
 	public static void main(String[] argv) throws IOException {
-		EnjoyAPIResponse res = EnjoyAPI.check("370506027767955466", "ключ");
+		EnjoyAPIResponse res = EnjoyAPI.check("370506027767955466", "ГЄГ«ГѕГ·");
 		
 		if(res.getCode() == 404) {
 			System.out.println(res.getMessage());
