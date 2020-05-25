@@ -1,5 +1,19 @@
 apply plugin: 'java-library'
 
+version = "1.1"
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Java библиотека для EnjoyAPI',
+            'Implementation-Version': version,
+            'Main-Class': 'net.shizofreniya.EnjoyAPI'
+    }
+    
+    baseName = project.name + '-libs-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
 repositories {
     jcenter()
 }
